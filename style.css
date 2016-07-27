@@ -1,0 +1,95 @@
+* {
+	font-family: 'OpenSansLight', 'Helvetica Neue', sans-serif !important;  
+	font-size: 10pt !important;
+}
+html {
+	max-width: 100vw !important;
+	overflow-x: hidden;
+}
+pre {
+	font-family: monospace !important;   
+}
+#pageHeader, #headerBanner, #footerBanner, #pageBody, #pageFooter {
+	width: 100vw !important;
+	min-width: 100vw !important;
+	max-width: 100vw !important;
+}
+#pageBody {
+	min-height: 100vh !important;   
+	padding-bottom: 20vh !important;
+}
+#pageFooter {
+	position: fixed;
+	bottom: 0vh;
+}
+.submenu {
+	background-color: #033968 !important;
+	color: #FFF !important;
+	border: 1px solid #000 !important;
+	text-shadow: 1px 2px #000 !important;
+	width: 100% !important;
+	max-width: 50vw !important;
+	min-width: 10vw !important;
+	line-height: 1.75em !important;
+	border-radius: 3px !important;
+	font-weight: normal !important;
+}
+.submenu:hover {
+	background-color: #009CDA !important;
+	color: #FFF !important;
+	border: 1px solid #1C4F7C !important;
+	text-shadow: 1px 2px #666 !important;
+}
+div .left ul:nth-child(1) {
+	display: none !important;
+}
+.left ul li, .right ul li {
+	line-height: 1.25em !important;   
+}
+.right {
+	margin-top: 10px !important;   
+}
+#menuTitle {
+	display: none !important;   
+}
+div.left ul:nth-child(1) {
+	display: none !important;  
+}
+.customText {
+	margin-top: -5px !important;
+}
+.menu {
+	margin-top: -40px !important;   
+}
+#bodyConstituency {
+	line-height: 23px !important;
+	font-size: 1.2em !important;
+}
+a:hover {
+	color: #000 !important;
+	text-decoration: none !important;
+	cursor: pointer !important;
+}
+.shortButton, .expandingButton, .buttonPress {
+	border-radius: 5px !important;
+	background-color: #033968 !important;
+	color: #FFF !important;
+	border: 1px solid #000 !important;
+	text-shadow: 1px 2px #000 !important;
+	line-height: 1.5em;
+}
+.shortButton:hover, .expandingButton:hover, .buttonPress:hover, label:hover, select:hover {
+	cursor: pointer !important;
+	background-color: #009CDA !important;
+	color: #FFF !important;
+	border: 1px solid #1C4F7C !important;
+	text-shadow: 1px 2px #666 !important;
+}
+.oddrow {
+	background-color: #d8f4ff !important;
+}
+th,td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	line-height: 1.5em !important;
+}
